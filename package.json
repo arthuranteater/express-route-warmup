@@ -1,11 +1,25 @@
 {
   "name": "server-warmup",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "## Instructions - I've given you a blank app.js, a package.json, and a data.js file - You will need to install your dependancies, then write your server code in the app.js - You will write two different routes, one to get all of the data, and one to get ONE piece of data by the id - For the base get route, ('/'), you will to return all the data in data.js - For the get by id route, ('/:id'), you will to return the piece of data that matches the id passed in the url - Google will be your friend - After we get this up and running, we'll deploy to heroku together.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthuranteater/express-route-warmup.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/arthuranteater/express-route-warmup/issues"
+  },
+  "homepage": "https://github.com/arthuranteater/express-route-warmup#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
 }
