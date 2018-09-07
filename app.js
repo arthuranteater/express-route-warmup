@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const planets = require("./data.js");
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.get("/", (request, response) => {
   response.send(planets);
